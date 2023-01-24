@@ -16,7 +16,7 @@ public interface UserService {
 
     User saveUser(User user);
 
-//    User updateUser(int id, User user);
+//    User updateUser(int id, User user); // какой смысл в update? без него же всё прекрасно работает
 
     User getUserById(int id);
 }
